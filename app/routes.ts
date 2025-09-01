@@ -13,4 +13,5 @@ const meta = () => {
 export default [
   index("routes/home.tsx"),
   route("/auth", "routes/auth.tsx"),
+  route("/upload", "routes/upload.tsx"),
 ] satisfies RouteConfig;

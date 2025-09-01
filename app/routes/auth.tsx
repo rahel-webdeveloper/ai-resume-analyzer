@@ -1,6 +1,6 @@
 import { useEffect } from "react";
-import { useLocation, useNavigate } from "react-router";
-import { usePuterStore } from "~/lib/puter_store";
+import { Link, useLocation, useNavigate } from "react-router";
+import { usePuterStore } from "~/lib/puter";
 
 const Auth = () => {
   const { isLoading, auth } = usePuterStore();
@@ -28,9 +28,18 @@ const Auth = () => {
             ) : (
               <>
                 {auth.isAuthenticated ? (
-                  <button className="auth-button" onClick={auth.signOut}>
-                    <p>Log Out</p>
-                  </button>
+                  <>
+                    <button className="auth-button" onClick={auth.signOut}>
+                      <p>Log Out</p>
+                    </button>
+                    <button
+                      onClick={() => navigate("/")}
+                      className="mt-8 cursor-pointer mx-auto bg-gray-100 py-1 px-2 rounded-xl hover:bg-gray-300"
+                    >
+                      {/* <Link to="/" /> */}
+                      Home page
+                    </button>
+                  </>
                 ) : (
                   <button className="auth-button" onClick={auth.signIn}>
                     <p>Log In</p>
