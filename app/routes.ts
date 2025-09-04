@@ -1,6 +1,6 @@
 import { type RouteConfig, index, route } from "@react-router/dev/routes";
 
-const meta = () => {
+export const meta = () => {
   [
     { title: "AI Resume Analyzer | Auth" },
     {
@@ -14,4 +14,5 @@ export default [
   index("routes/home.tsx"),
   route("/auth", "routes/auth.tsx"),
   route("/upload", "routes/upload.tsx"),
+  route("/resume/:id", "routes/resume.tsx"),
 ] satisfies RouteConfig;

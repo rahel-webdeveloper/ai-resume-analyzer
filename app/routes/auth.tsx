@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { Link, useLocation, useNavigate } from "react-router";
+import { useLocation, useNavigate } from "react-router";
 import { usePuterStore } from "~/lib/puter";
 
 const Auth = () => {
