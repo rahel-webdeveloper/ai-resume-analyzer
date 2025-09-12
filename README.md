@@ -1,9 +1,6 @@
 <div align="center">
-  <br />
-    <a href="https://github.com/yourusername/ai-resume-analyzer" target="_blank">
-      <img src="public/readme/hero.webp" alt="Project Banner">
-    </a>
-  <br />
+
+  ![Hero banner](/public/images/feedback-img.png)
 
   <div>
     <img alt="Static Badge" src="https://img.shields.io/badge/React-4c84f3?style=for-the-badge&logo=react&logoColor=white">
@@ -16,8 +13,7 @@
   <h3 align="center">AI Resume Analyzer</h3>
 
    <div align="center">
-     🚀 An AI-powered tool that analyzes resumes, matches them with job descriptions, and provides feedback for improvement.  
-     <br/>⚠️ Project is currently <b>70% complete</b> — features are being added weekly!
+     🚀 An AI-powered tool that analyzes resumes, matches them with job descriptions, and provides actionable feedback for improvement.
     </div>
 </div>
 
@@ -118,11 +114,11 @@ ai-resume-analyzer/
 
 - [x] Resume parsing & text extraction  
 - [x] Basic keyword matching & scoring  
-- [ ] Skill gap analysis with NLP  
-- [ ] AI-powered resume improvement suggestions  
-- [ ] Web dashboard with charts & analytics  
-- [ ] Multi-language support  
-- [ ] REST API for integrations  
+- [x] Skill gap analysis with NLP  
+- [x] AI-powered resume improvement suggestions  
+- [x] Web dashboard with charts & analytics  
+- [x] Multi-language support  
+- [x] REST API for integrations  
 
 ## 📜 License
 
